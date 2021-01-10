@@ -9,5 +9,4 @@ public class KanitodoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(KanitodoApplication.class, args);
 	}
-
 }
