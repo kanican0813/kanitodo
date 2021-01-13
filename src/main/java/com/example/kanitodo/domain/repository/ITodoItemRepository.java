@@ -7,4 +7,6 @@ import java.util.List;
 
 public interface ITodoItemRepository extends JpaRepository<TodoItem, Long> {
     public List<TodoItem> findByDoneOrderByTitleAsc(boolean done);
+
+    TodoItem findById(long id);
 }
